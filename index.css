@@ -1,0 +1,82 @@
+
+
+body{
+    font-family: 'Kalam', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+.header, .footer{
+    background-color: yellow;
+    text-align: center;
+}
+.header h1{
+    font-size: 2rem; 
+    padding: 1rem;
+    margin: 0;
+}
+
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 2rem;
+}
+#btn{
+    background-color:yellow;
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    padding: 16px 32px;
+    margin: 16px 0;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+textarea{
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: 'Kalam', cursive;
+}
+
+#outbox{
+    
+    height: 16vh; 
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 4rem;
+}
+
+.footer h2{
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 0.5rem;
+
+}
+.footer p{
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 0.1rem 0.7rem 0rem 0.7rem;
+}
+
+a{
+    color: #781ede;
+    text-decoration: none;
+}
+.footer{
+    padding: 0rem 0rem 0.1rem 0;
+}
+.list-non-bullet{
+    list-style: none;
+    padding: 0;
+}
+.list-item{
+    display: inline;
+    padding: 0rem 0.5rem ;
+}
